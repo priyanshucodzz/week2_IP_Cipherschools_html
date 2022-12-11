@@ -1,0 +1,68 @@
+/* Universal Selector */
+/* *{
+    background-color: indianred;
+} */
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    color: purple;
+}
+/* Type/Element/Tag Selector */
+strong{
+    font-size: 20px;
+}
+/* Type/Element/Tag Selector */
+/* This is a paragraph style */
+p{
+    color: inherit;
+    /* color:#ded6c8; */
+    background-color: rgba(177, 79, 79, 0.8);
+    /* background-color: rgb(0, 0, 0); */
+    /* background-color: rgb(0, 0, 0); */
+    /* background-color: hsla(hue, saturation, lightness, alpha); */
+
+    /* Absolute units */
+    width: 200px;
+    /* Relative units */
+    width:70vw;
+    /* The number values with no units */
+    margin:0;
+    line-height:1.2;
+}
+/* Type/Element/Tag Selector */
+div{
+    /* function values */
+    transform:rotate(0deg);
+    width:calc(100% - 20px);
+    background-image: url("fruit.jpg");
+}
+/* Type/Element/Tag Selector */
+/* A Shorthand property */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6{
+    color:blue;
+}
+/* h2{
+    color:blue;
+} */
+.heading{
+  background-color: #000;  
+}
+#one{
+    font-size: 30px;
+}
+/* Desendant Selector */
+.div p{
+    font-size: 50px;
+}
+/* Grouping Selector */
+.div .container{
+    font-style: italic;
+}

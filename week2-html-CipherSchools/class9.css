@@ -1,0 +1,30 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    /* background-image: url('grass.jpeg');
+    background-repeat: no-repeat;
+    background-position:10% ;
+    background-position-x:10px ;
+    background-position-y:200px ; */
+    /* background-size: 200px; */
+    background: url('grass.jpeg') no-repeat 2% 200px / 400px , url('bg.jpeg') no-repeat center / 100vw 158vh;
+}
+article{
+    background-color: rgb(18, 161, 18);
+    width: 70%;
+    border-radius: 8px;
+    padding: 18px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    color: #fff;
+}
+article h1{
+    font-size: 100px;
+}
+article p{
+    font-size:40px ;
+}
